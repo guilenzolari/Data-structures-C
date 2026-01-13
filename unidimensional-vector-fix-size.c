@@ -6,7 +6,7 @@ int main() {
   int esize = sizeof(int); // cada int ocupa 4 bytes
   printf("Tamanho de int: %d bytes\n", esize);
 
-  // Alocando memoria para 100 enteros
+  // Alocando memoria para 100 inteiros
   // b é o ponteiro para o primeiro elemento do vetor
 	b = (int *) malloc(100 * sizeof(int));
 	
